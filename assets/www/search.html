@@ -7,8 +7,7 @@
 		<script src="phonegap-1.3.0.js"></script>
 		<script src="jquery-1.7.min.js"></script>
 		<script src="jquery-mobile/jquery.mobile-1.0.min.js"></script>
-		<!-- -->
-		<
+		<!-- Javascript -->
 		<script type="text/javascript" charset="utf-8">
 			function onLoad() {
 				document.addEventListener("deviceready", onDeviceReady, false);
@@ -18,16 +17,91 @@
 				phoneGapReady.innerHTML = "PhoneGap is Ready";
 			}
 		</script>
+		<!-- /Javascript-->
+		<!--Title  -->
 		<title>Search</title>
 	</head>
+	<!-- Body -->
 	<body onload="onLoad();">
-		<div id="page-home" class="page" data-role="page" >
+		<div id="page-home" class="page" data-role="page" data-theme="a">
 			<div id="page-home-header" data-role="header">
 				<h1>MemCards Search</h1>
 			</div><!-- /header -->
 			<div id="page-home-content" class="content" data-role="content">
 				<p>
-					SEARCH CONTENTS GOES HERE
+					<div class="content-primary">
+						<ul data-role="listview">
+							<li data-role="list-divider">
+								A
+							</li>
+							<li>
+								<a href="index.html">American Express</a>
+							</li>
+							<li data-role="list-divider">
+								B
+							</li>
+							<li>
+								<a href="index.html">Best Buy</a>
+							</li>
+							<li data-role="list-divider">
+								C
+							</li>
+							<li>
+								<a href="index.html">Cineplex</a>
+							</li>
+							<li data-role="list-divider">
+								D
+							</li>
+							<li data-role="list-divider">
+								E
+							</li>
+							<li data-role="list-divider">
+								F
+							</li>
+							<li>
+								<a href="index.html">Future Shop</a>
+							</li>
+							<li data-role="list-divider">
+								G
+							</li>
+							<li data-role="list-divider">
+								H
+							</li>
+							<li data-role="list-divider">
+								L
+							</li>
+							<li>
+								<a href="index.html">Longos</a>
+							</li>
+							<li data-role="list-divider">
+								M
+							</li>
+							<li data-role="list-divider">
+								N
+							</li>
+							<li data-role="list-divider">
+								P
+							</li>
+							<li>
+								<a href="index.html">Petro Canada</a>
+							</li>
+							<li data-role="list-divider">
+								R
+							</li>
+							<li>
+								<a href="index.html">Roger's</a>
+							</li>
+							<li data-role="list-divider">
+								S
+							</li>
+							<li>
+								<a href="index.html"> <img src="images/sobeys_small.jpg" /> <h3>Sobeys</h3>
+								<p>
+									Sobeys
+								</p> </a>
+							</li>
+						</ul>
+					</div><!--/content-primary -->
 				</p>
 			</div><!-- /content -->
 			<div id="page-home-footer" class="footer" data-role="footer" data-position="fixed">
@@ -50,4 +124,5 @@
 			</div><!-- /footer -->
 		</div><!-- /page -->
 	</body>
+	<!-- /body -->
 </html>

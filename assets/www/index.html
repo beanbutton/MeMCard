@@ -6,8 +6,8 @@
 		<script src="phonegap-1.3.0.js"></script>
 		<script src="jquery-1.7.min.js"></script>
 		<script src="jquery-mobile/jquery.mobile-1.0.min.js"></script>
-		<!-- -->
-		<
+		
+		<!-- Javascript -->
 		<script type="text/javascript" charset="utf-8">
 			function onLoad() {
 				document.addEventListener("deviceready", onDeviceReady, false);
@@ -17,11 +17,12 @@
 				phoneGapReady.innerHTML = "PhoneGap is Ready";
 			}
 		</script>
-		<!-- -->
+		<!-- /Javascript-->
+		
 		<title>MeMCards</title>
 	</head>
 	<body onload="onLoad();">
-		<div id="page-home" class="page" data-role="page" >
+		<div id="page-home" class="page" data-role="page" data-theme="a">
 			<div id="page-home-header" data-role="header">
 				<h1>MemCards</h1>
 			</div><!-- /header -->
@@ -30,25 +31,24 @@
 					<fieldset class="ui-grid-a">
 						<div class="ui-block-a">
 							<button type="submit" data-theme="a">
-								Food
+								Category1
 							</button>
-							<button type="submit" data-theme="b">
-								Beatuy
+							<button type="submit" data-theme="a">
+								Category2
 							</button>
-							<button type="submit" data-theme="c">
-								Travel
+							<button type="submit" data-theme="a">
+								Category
 							</button>
-							
 						</div>
 						<div class="ui-block-b">
 							<button type="submit" data-theme="a">
-								Cancel
+								Category1
 							</button>
-							<button type="submit" data-theme="b">
-								Cancel
+							<button type="submit" data-theme="a">
+								Category1
 							</button>
-							<button type="submit" data-theme="c">
-								Cancel
+							<button type="submit" data-theme="a">
+								Category1
 							</button>
 						</div>
 					</fieldset>
