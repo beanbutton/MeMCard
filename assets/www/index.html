@@ -7,14 +7,13 @@
 		<script src="jquery-1.7.min.js"></script>
 		<script src="jquery-mobile/jquery.mobile-1.0.min.js"></script>
 		<!-- -->
-		<<script type="text/javascript" charset="utf-8">
-			function onLoad()
-			{
-				document.addEventListener("deviceready", onDeviceReady, false);	
+		<
+		<script type="text/javascript" charset="utf-8">
+			function onLoad() {
+				document.addEventListener("deviceready", onDeviceReady, false);
 			}
-			
-			function onDeviceReady()
-			{
+
+			function onDeviceReady() {
 				phoneGapReady.innerHTML = "PhoneGap is Ready";
 			}
 		</script>
@@ -28,7 +27,31 @@
 			</div><!-- /header -->
 			<div id="page-home-content" class="content" data-role="content">
 				<p>
-					Page content goes here.
+					<fieldset class="ui-grid-a">
+						<div class="ui-block-a">
+							<button type="submit" data-theme="a">
+								Food
+							</button>
+							<button type="submit" data-theme="b">
+								Beatuy
+							</button>
+							<button type="submit" data-theme="c">
+								Travel
+							</button>
+							
+						</div>
+						<div class="ui-block-b">
+							<button type="submit" data-theme="a">
+								Cancel
+							</button>
+							<button type="submit" data-theme="b">
+								Cancel
+							</button>
+							<button type="submit" data-theme="c">
+								Cancel
+							</button>
+						</div>
+					</fieldset>
 				</p>
 			</div><!-- /content -->
 			<div id="page-home-footer" class="footer" data-role="footer" data-position="fixed">
@@ -39,6 +62,9 @@
 						</li>
 						<li>
 							<a href="mycards.html" data-role="icon" data-icon="grid">My Cards</a>
+						</li>
+						<li>
+							<a href="settings.html" data-role="icon" data-icon="gear">Settings</a>
 						</li>
 						<li>
 							<a href="search.html" data-role="icon" data-icon="search">Search</a>
